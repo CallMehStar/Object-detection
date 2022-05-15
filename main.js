@@ -34,7 +34,7 @@ function modelLoaded () {
 }
 
 function gotResult (error, results) {
-    if () {
+    if (error) {
         console.log(error);
     }
     console.log(results);
