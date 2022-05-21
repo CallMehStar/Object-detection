@@ -27,7 +27,7 @@ function draw() {
                 rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
             }
         }
-
+/*
     fill("#FF0000");
     text("Dog", 45, 75);
     noFill();
@@ -39,6 +39,7 @@ function draw() {
     noFill();
     stroke("#FF0000");
     rect(300, 90, 270, 320 );
+*/
 }
 
 function modelLoaded () {
