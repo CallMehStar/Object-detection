@@ -17,7 +17,7 @@ function draw() {
     image(img, 0 ,0, 640, 420);
         if (status != "") {
             for (i = 0; i < objects.length; i++) {
-                document.getElementById("status").innerHTML = "Status : Object Detected";
+                document.getElementById("status").innerHTML ="Status : Object Detected";
 
                 fill("#FF0000");
                 percent = floor(objects[i].confidence * 100);
