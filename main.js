@@ -35,6 +35,7 @@ function draw() {
                 rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
             }
         }
+}
 /*
     fill("#FF0000");
     text("Dog", 45, 75);
